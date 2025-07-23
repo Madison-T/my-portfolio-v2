@@ -76,7 +76,6 @@ const Navbar = () => {
         <NavLinks>
             <NavItem><a href="#about">About</a></NavItem>
             <NavItem><a href="#projects">Projects</a></NavItem>
-            <NavItem><a href="#skills">Skills</a></NavItem>
             <NavItem><a href="#contact">Contact</a></NavItem>
             <NavItem><a href="#/resume.pdf" target="_blank" rel="noreferrer">Resume</a></NavItem>
         </NavLinks>

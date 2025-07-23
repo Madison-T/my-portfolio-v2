@@ -38,7 +38,6 @@ const MenuDrawer = ({ isOpen, toggleMenu }) => {
         >
           <NavItem href="#about" onClick={toggleMenu}>About</NavItem>
           <NavItem href="#projects" onClick={toggleMenu}>Projects</NavItem>
-          <NavItem href="#skills" onClick={toggleMenu}>Skills</NavItem>
           <NavItem href="/resume.pdf" onClick={toggleMenu} target="_blank" rel="noreferrer">Resume</NavItem>
         </Overlay>
     );

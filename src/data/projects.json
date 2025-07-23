@@ -1,0 +1,64 @@
+[
+    {
+    "title": "Group Decision App",
+    "type": "Academic Project",
+    "range": "2025",
+    "url": "https://github.com/Madison-T/Do_Together",
+    "images": ["/my-portfolio-v2/assets/screenshots/DoTogether1.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether2.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether3.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether4.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether5.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether6.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether7.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether8.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether9.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether10.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether11.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether12.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether13.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether14.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether15.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether16.png",
+                "/my-portfolio-v2/assets/screenshots/DoTogether17.png"],
+    "description": [
+      "Real-time mobile app with live voting and group activity planning.",
+      "Built with React Native, Firebase, and Google Places API.",
+      "Syncs user selections and activity results instantly."
+    ],
+    "tech": ["React Native", "Firebase", "Google Places API"]
+  },
+  {
+    "title": "Full-Stack Blog Platform",
+    "type": "Personal Project",
+    "range": "2025",
+    "url": "https://github.com/Madison-T/my-blog",
+    "images": ["/my-portfolio-v2/assets/screenshots/blog5.png",
+                "/my-portfolio-v2/assets/screenshots/blog2.png",
+                "/my-portfolio-v2/assets/screenshots/blog3.png",
+                "/my-portfolio-v2/assets/screenshots/blog4.png",
+                "/my-portfolio-v2/assets/screenshots/blog1.png",
+                "/my-portfolio-v2/assets/screenshots/blog6.png"],
+    "description": [
+      "Built a secure blog platform using Firebase auth, Firestore DB, and rich text editing.",
+      "Deployed with CI/CD via GitHub Actions and Vercel.",
+      "Includes Markdown support and responsive design."
+    ],
+    "tech": ["Next.js", "Firebase", "Tailwind CSS", "CI/CD"]
+  },
+  {
+    "title": "Learning Platform Enhancements",
+    "type": "Research & Development Project (Company: Foster Moore)",
+    "range": "2025",
+    "url": "https://github.com/SCANLM1/Learning-Platform_Enhancments",
+    "images": [
+        "/my-portfolio-v2/assets/screenshots/lms.png",
+        "/my-portfolio-v2/assets/screenshots/lms1.png"],
+    "description": [
+      "Led a 4-member team to build SCORM-compliant JavaScript plugins.",
+      "Integrated TinyMCE, SCORM API, and custom completion logic.",
+      "Used Agile sprints and weekly client feedback sessions."
+    ],
+    "tech": ["JavaScript", "SCORM", "TinyMCE", "Agile"]
+  }
+]
