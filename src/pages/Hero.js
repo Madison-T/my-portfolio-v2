@@ -63,7 +63,7 @@ const CTA = styled.a`
 
 const Hero = () => {
   const headingText = "Hi, I'm Madison...";
-  const subText = "I use code the way others use paint—to create, explore, and express.";
+  const subText = "I use code the way others use paint to create.";
 
   const [typedHeading, setTypedHeading] = useState("");
   const [typedSub, setTypedSub] = useState("");
