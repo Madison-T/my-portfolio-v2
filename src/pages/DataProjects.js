@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 const Section = styled.section`
-  padding: 6rem 2rem 3rem;
+  padding: 3rem 2rem 6rem;
   max-width: 1000px;
   margin: 0 auto;
 `;
@@ -119,12 +119,12 @@ const TechBadges = styled.div`
   }
 `;
 
-const Projects = () => {
+const DataProjects = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <Section id="projects">
-      <Title>Software Projects</Title>
+      <Title>Data Projects</Title>
       <TabContainer>
         <TabList role="tablist">
           {projectData.map((project, i) => (
@@ -207,4 +207,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default DataProjects;

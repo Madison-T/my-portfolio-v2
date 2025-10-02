@@ -38,7 +38,7 @@ const MenuDrawer = ({ isOpen, toggleMenu }) => {
         >
           <NavItem href="#about" onClick={toggleMenu}>About</NavItem>
           <NavItem href="#projects" onClick={toggleMenu}>Projects</NavItem>
-          <NavItem href="/resume.pdf" onClick={toggleMenu} target="_blank" rel="noreferrer">Resume</NavItem>
+          <NavItem href={`${process.env.PUBLIC_URL}/assets/resume/madison-tana-cv.pdf`} onClick={toggleMenu} target="_blank" rel="noreferrer">Resume</NavItem>
         </Overlay>
     );
 };

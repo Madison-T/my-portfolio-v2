@@ -77,7 +77,7 @@ const Navbar = () => {
             <NavItem><a href="#about">About</a></NavItem>
             <NavItem><a href="#projects">Projects</a></NavItem>
             <NavItem><a href="#contact">Contact</a></NavItem>
-            <NavItem><a href="#/resume.pdf" target="_blank" rel="noreferrer">Resume</a></NavItem>
+            <NavItem><a href={`${process.env.PUBLIC_URL}/assets/resume/madison-tana-cv.pdf`} target="_blank" rel="noreferrer">Resume</a></NavItem>
         </NavLinks>
         </Nav>
 

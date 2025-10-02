@@ -7,7 +7,7 @@ const HeroSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 0rem 2rem;
   max-width: 900px;
   margin: auto;
 `;

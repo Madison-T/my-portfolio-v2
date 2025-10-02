@@ -52,13 +52,13 @@
     "range": "2025",
     "url": "https://github.com/SCANLM1/Learning-Platform_Enhancments",
     "images": [
-        "/my-portfolio-v2/assets/screenshots/lms.png",
-        "/my-portfolio-v2/assets/screenshots/lms1.png"],
+        "/my-portfolio-v2/assets/screenshots/lms1.png",
+        "/my-portfolio-v2/assets/screenshots/lms.png"],
     "description": [
-      "Led a 4-member team to build SCORM-compliant JavaScript plugins.",
-      "Integrated TinyMCE, SCORM API, and custom completion logic.",
-      "Used Agile sprints and weekly client feedback sessions."
+      "Enhanced a client Learning Management System by refactoring legacy JavaScript / HTML code, building new interactive plugins and automating completion tracking.",
+      "Worked directly with clients to gather requirements and conduct iterative testing.",
+      "Applied Agile practices and Git-based workflows to deliver solutions on time and to specification."
     ],
-    "tech": ["JavaScript", "SCORM", "TinyMCE", "Agile"]
+    "tech": ["JavaScript", "HTML","CSS", "API Integration", "Agile"]
   }
 ]
