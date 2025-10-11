@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import resumePdf from "../assets/resume/madison-tana-cv.pdf";
 
 const Overlay = styled(motion.div)`
   position: fixed;
@@ -21,26 +22,37 @@ const NavItem = styled.a`
   margin: 1rem 0;
   color: ${({ theme }) => theme.text};
   text-decoration: none;
-  
+
   &:hover {
-  color: ${({ theme }) => theme.accent};
+    color: ${({ theme }) => theme.accent};
   }
 `;
 
 const MenuDrawer = ({ isOpen, toggleMenu }) => {
-    if (!isOpen) return null;
+  if (!isOpen) return null;
 
-    return (
-        <Overlay 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
-          <NavItem href="#about" onClick={toggleMenu}>About</NavItem>
-          <NavItem href="#projects" onClick={toggleMenu}>Projects</NavItem>
-          <NavItem href={`${process.env.PUBLIC_URL}/assets/resume/madison-tana-cv.pdf`} onClick={toggleMenu} target="_blank" rel="noreferrer">Resume</NavItem>
-        </Overlay>
-    );
+  return (
+    <Overlay
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <NavItem href="#about" onClick={toggleMenu}>
+        About
+      </NavItem>
+      <NavItem href="#projects" onClick={toggleMenu}>
+        Projects
+      </NavItem>
+      <NavItem
+        href={resumePdf}
+        onClick={toggleMenu}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Resume
+      </NavItem>
+    </Overlay>
+  );
 };
 
 export default MenuDrawer;
