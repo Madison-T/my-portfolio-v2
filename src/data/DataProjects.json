@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Exploratory Data Analysis of an Auto Imports Dataset",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "https://www.kaggle.com/code/madisontana/exploratory-data-analysis-of-auto-imports-dataset",
+    "images": [],
+    "description": [
+      "Conducted exploratory data analysis on an Auto Imports dataset, including data cleaning, handling of missing values, and detection of outliers.",
+      "Produced descriptive statistics and visualisations (histograms, boxplots, scatter plots) alongside correlation analysis to summarise variable distributions and relationships.",
+      "Applied statistical methods using SciPy and visualisation libraries to identify trends and support insights into factors influencing automobile pricing."
+    ],
+    "tech": ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "SciPy"]
+  },
+  {
+    "title": "Enhancing Employee Performance Ratings at KiwiLearn",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "https://colab.google.com/",
+    "images": [],
+    "description": [
+      "Performed exploratory data analysis on employee performance data, including summary statistics, missing-value checks, outlier detection, and visualisations of rating distributions by department.",
+      "Applied ANOVA and Tukey’s HSD post-hoc tests to evaluate differences in performance ratings across departments.",
+      "Built and evaluated a multiple linear regression model using experience and training hours as predictors, tested regression assumptions, and recommended transformations to address violations.",
+      "Provided actionable insights for standardising evaluation criteria and improving professional development opportunities."
+    ],
+    "tech": ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "SciPy", "statsmodels"]
+  },
+  {
+    "title": "Maternal Health Risk Analysis",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Conducted exploratory data analysis on the Maternal Health Risk dataset, including summary statistics, visualisations (histograms, pairplots), and targeted outlier handling.",
+      "Developed and tuned Decision Tree classifiers using 10-fold cross-validation; evaluated hyperparameters and model performance with confusion matrices and class-level metrics (precision, recall, F1-score).",
+      "Applied statistical and machine learning techniques to assess maternal health risk factors and demonstrated the value of predictive modelling in healthcare contexts."
+    ],
+    "tech": ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "scikit-learn", "statsmodels"]
+  },
+  {
+    "title": "Predicting Bank Marketing Campaign Outcomes",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Performed exploratory data analysis on the Bank Marketing dataset, including descriptive statistics, visualisations, duplicate/missing-value checks, and class imbalance inspection.",
+      "Applied statistical feature selection methods (Chi-square, ANOVA F-tests) to identify influential predictors and prepared data for model development.",
+      "Built and evaluated Naïve Bayes, K-Nearest Neighbours, and Multilayer Perceptron models, using cross-validation, hyperparameter tuning, and performance metrics to compare approaches.",
+      "Recommended strategies for addressing class imbalance and improving predictive performance through feature engineering and model selection."
+    ],
+    "tech": ["Python", "scikit-learn", "pandas", "NumPy", "matplotlib", "seaborn", "statsmodels"]
+  },
+  {
+    "title": "Comparative Analysis of Text Classification Algorithms",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Designed and ran experiments comparing Naïve Bayes, Multilayer Perceptron, and SVM classifiers on two text datasets (Depression Reddit and Fake & Real News).",
+      "Implemented preprocessing pipelines including stopword removal, lemmatization, and TF-IDF vectorization; applied stratified splits and hyperparameter tuning via GridSearchCV.",
+      "Evaluated model performance using precision, recall, and F1-score across multiple preprocessing configurations, documenting comparative strengths and trade-offs.",
+      "Provided recommendations on preprocessing strategies and model selection for improving text classification workflows."
+    ],
+    "tech": ["Python", "scikit-learn", "pandas", "NumPy", "NLTK", "TF-IDF", "CountVectorizer", "GridSearchCV"]
+  },
+  {
+    "title": "Statistical Analysis & Modelling",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Performed statistical analyses including Fisher’s exact test, Pearson’s chi-square, chi-square goodness-of-fit tests, and ANOVA with post-hoc comparisons to evaluate group differences and categorical associations.",
+      "Built and assessed regression models, applying multiple linear regression for continuous outcomes and logistic regression with GLMs for binary outcomes, supported by diagnostics and visualisations.",
+      "Applied simulation methods to estimate p-values, validated assumptions, and communicated findings through clear statistical reasoning and visual outputs."
+    ],
+    "tech": ["R", "RStudio", "Linear Regression", "Logistic Regression", "ANOVA", "Fisher’s Exact Test", "Pearson’s Chi-square", "Simulation", "Data Visualisation"]
+  },
+  {
+    "title": "Forecasting: Time Series Analysis of NZ Economic Indicators",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Conducted exploratory analysis of economic time series (unemployment, inflation, disposable income), including transformations, decomposition, and autocorrelation checks.",
+      "Applied benchmark forecasting methods (mean, naïve, seasonal naïve, drift) and decomposition-based approaches (STL) to generate and compare forecasts.",
+      "Built time-series regression models with trend and seasonal components, evaluated assumptions, and compared alternative models for interpretability and accuracy."
+    ],
+    "tech": ["R", "RStudio", "fpp3 (tsibble/fable)", "readxl", "ggplot2"]
+  },
+  {
+    "title": "Forecasting & Time Series Modelling",
+    "type": "Data Science Project",
+    "range": "2025",
+    "url": "",
+    "images": [],
+    "description": [
+      "Applied ETS models (simple exponential smoothing, Holt’s linear, Holt–Winters additive and multiplicative) to monthly sales data, evaluated seasonal effects, and assessed transformations.",
+      "Performed stationarity analysis with ACF/PACF, applied Box–Cox transformations and differencing, and fitted seasonal ARIMA models with residual diagnostics.",
+      "Compared ETS and ARIMA forecasts using accuracy measures and time-series cross-validation, and discussed implications of model choice, forecast intervals, and validation techniques."
+    ],
+    "tech": ["R", "fpp3 (tsibble/fable)", "fabletools", "ggplot2", "readxl"]
+  }
+]

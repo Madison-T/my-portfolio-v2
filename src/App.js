@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-// import DataProjects from "./pages/DataProjects";
+import DataProjects from "./pages/DataProjects";
 // import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ const App = () => {
         <Hero />
         { <About /> }
         { <Projects /> }
-        {/* <DataProjects />*/ }
+        { <DataProjects /> }
         {/* <Skills /> */}
         { <Contact /> }
       </main>

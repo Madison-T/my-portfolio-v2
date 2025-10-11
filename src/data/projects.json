@@ -1,64 +1,168 @@
 [
-    {
+  {
+    "title": "Custom Learning Tools",
+    "type": "Research & Development Project (Company: Foster Moore)",
+    "range": "2025",
+    "url": "https://github.com/SCANLM1/Learning-Platform_Enhancments",
+    "images": [
+      "/my-portfolio-v2/assets/screenshots/lms/lmsdd1.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsdd.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsdd2.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsctc.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsctc1.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsfte.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmsfte1.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmscdb.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmscc.png",
+      "/my-portfolio-v2/assets/screenshots/lms/lmscc1.png"
+    ],
+    "description": [
+      "Enhanced a client Learning Management System by refactoring legacy JavaScript/HTML code, building new interactive plugins and automating completion tracking.",
+      "Worked directly with clients to gather requirements and conduct iterative testing.",
+      "Applied Agile practices and Git-based workflows to deliver solutions on time and to specification."
+    ],
+    "tech": ["JavaScript", "HTML", "CSS", "API Integration", "Agile"]
+  },
+  {
     "title": "Group Decision App",
     "type": "Academic Project",
     "range": "2025",
     "url": "https://github.com/Madison-T/Do_Together",
-    "images": ["/my-portfolio-v2/assets/screenshots/DoTogether1.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether2.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether3.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether4.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether5.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether6.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether7.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether8.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether9.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether10.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether11.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether12.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether13.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether14.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether15.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether16.png",
-                "/my-portfolio-v2/assets/screenshots/DoTogether17.png"],
+    "images": ["/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether1.png",
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether2.png",
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether3.png",
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether4.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether5.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether6.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether7.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether8.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether9.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether10.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether11.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether12.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether13.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether14.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether15.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether16.png", 
+      "/my-portfolio-v2/assets/screenshots/DoTogether/DoTogether17.png"],
     "description": [
-      "Real-time mobile app with live voting and group activity planning.",
-      "Built with React Native, Firebase, and Google Places API.",
-      "Syncs user selections and activity results instantly."
+      "Developed a cross-platform mobile app for friend groups to vote on activities with real data sync, integrated authentication, and location-based data using cloud services.",
+      "Drove the project through the full software development life cycle, from requirements gathering and prototyping to deployment and testing.",
+      "Collaborated in an Agile team environment, applying sprint planning, code reviews, and iterative feedback to deliver a reliable and user-friendly product."
     ],
-    "tech": ["React Native", "Firebase", "Google Places API"]
+    "tech": ["React Native", "Firebase", "Google Places API", "Expo"]
   },
   {
     "title": "Full-Stack Blog Platform",
     "type": "Personal Project",
     "range": "2025",
     "url": "https://github.com/Madison-T/my-blog",
-    "images": ["/my-portfolio-v2/assets/screenshots/blog5.png",
-                "/my-portfolio-v2/assets/screenshots/blog2.png",
-                "/my-portfolio-v2/assets/screenshots/blog3.png",
-                "/my-portfolio-v2/assets/screenshots/blog4.png",
-                "/my-portfolio-v2/assets/screenshots/blog1.png",
-                "/my-portfolio-v2/assets/screenshots/blog6.png"],
-    "description": [
-      "Built a secure blog platform using Firebase auth, Firestore DB, and rich text editing.",
-      "Deployed with CI/CD via GitHub Actions and Vercel.",
-      "Includes Markdown support and responsive design."
+    "images": [
+      "/my-portfolio-v2/assets/screenshots/blog/blog5.png",
+      "/my-portfolio-v2/assets/screenshots/blog/blog2.png",
+      "/my-portfolio-v2/assets/screenshots/blog/blog3.png",
+      "/my-portfolio-v2/assets/screenshots/blog/blog4.png",
+      "/my-portfolio-v2/assets/screenshots/blog/blog1.png",
+      "/my-portfolio-v2/assets/screenshots/blog/blog6.png"
     ],
-    "tech": ["Next.js", "Firebase", "Tailwind CSS", "CI/CD"]
+    "description": [
+      "Focused on backend integration and deployment workflows as a personal project to practice full-stack delivery.",
+      "Built a secure blogging platform featuring user authentication, rich text editing, and image upload capabilities.",
+      "Integrated Firebase services (Auth, Firestore, Storage) for real-time data handling and secure content management.",
+      "Designed responsive UI components with TailwindCSS, ensuring accessibility across devices.",
+      "Implemented automated CI/CD pipelines with GitHub Actions and deployed the application to Vercel.",
+      "Gained hands-on experience balancing frontend usability with backend security and scalability."
+    ],
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Firebase (Auth, Firestore, Storage)",
+      "Vercel",
+      "GitHub Actions"
+    ]
   },
   {
-    "title": "Learning Platform Enhancements",
-    "type": "Research & Development Project (Company: Foster Moore)",
-    "range": "2025",
-    "url": "https://github.com/SCANLM1/Learning-Platform_Enhancments",
-    "images": [
-        "/my-portfolio-v2/assets/screenshots/lms1.png",
-        "/my-portfolio-v2/assets/screenshots/lms.png"],
+    "title": "Evidence-Based Practice Submission & Search Platform",
+    "type": "Academic Project",
+    "range": "2024",
+    "url": "https://github.com/Madison-T/SPEED_Development_Articles",
     "description": [
-      "Enhanced a client Learning Management System by refactoring legacy JavaScript / HTML code, building new interactive plugins and automating completion tracking.",
-      "Worked directly with clients to gather requirements and conduct iterative testing.",
-      "Applied Agile practices and Git-based workflows to deliver solutions on time and to specification."
+      "Built a responsive full-stack platform with secure role-based authentication and user-friendly interfaces.",
+      "Designed and implemented CRUD functionality and RESTful APIs for submitting, moderating, and browsing research claims.",
+      "Set up automated CI/CD pipelines and deployed the app to Vercel for seamless updates.",
+      "Applied the full software development life cycle, from requirements gathering and database design to testing and release.",
+      "Collaborated in an Agile team using sprint planning, stand-ups, and peer code reviews to drive continuous improvement.",
+      "Enabled researchers to share, validate, and access claims more efficiently, improving collaboration and transparency."
     ],
-    "tech": ["JavaScript", "HTML","CSS", "API Integration", "Agile"]
+    "tech": ["MongoDB", "Nest.js", "Next.js", "Node.js", "Vercel"]
+  },
+  {
+    "title": "SQL Database System",
+    "type": "Academic Project",
+    "range": "2023",
+    "images": [
+      "/my-portfolio-v2/assets/screenshots/sqldb.jpg"
+    ],
+    "description": [
+      "Designed and implemented a fully normalized relational database system.",
+      "Created ER diagrams in Visual Paradigm and developed the schema in Oracle SQL with realistic test data.",
+      "Built advanced queries and reports to support business operations and decision making."
+    ],
+    "tech": ["Oracle SQL", "Visual Paradigm", "Database System Design", "ERD"]
+  },
+  {
+    "title": "Status Posting Web App",
+    "type": "Academic Project",
+    "range": "2025",
+    "url": "https://github.com/Madison-T/",
+    "images": [
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png"
+    ],
+    "description": [
+      "Originally built as part of my Web Development course at AUT. This project demonstrates full CRUD functionality using PHP and SQL, including input validation, error handling, and dynamic database interaction. The archived version is included on GitHub as reference, since the original ran on AUT’s webdev server.",
+      "Designed and developed a diary-style status posting system for a social networking site, featuring input validation, error handling, and persistent SQL-based storage.",
+      "Implemented posting, searching, and retrieval functionality with PHP forms and SQL queries, including validation of codes, dates, and text formats.",
+      "Delivered a fully functional web app with a styled interface, confirmation/error messages, and reset functionality, deployed and tested on the AUT webdev server."
+    ],
+    "tech": ["PHP", "HTML", "CSS", "SQL"]
+  },
+  {
+    "title": "AJAX Taxi Booking and Admin System",
+    "type": "Academic Project",
+    "range": "2025",
+    "url": "https://github.com/Madison-T/",
+    "images": [
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png",
+      "/my-portfolio-v2/assets/screenshots/folder/file.png"
+    ],
+    "description": [
+      "Originally built as part of my Web Development course at AUT. This project demonstrates AJAX-based client–server communication with PHP and MySQL, including dynamic booking forms, server-side validation, and an admin interface for managing assignments. The archived version is included on GitHub as reference, since the original ran on AUT’s webdev server.",
+      "Built an AJAX-based taxi booking platform that allowed customers to submit validated booking requests with unique reference IDs, stored in a MySQL database.",
+      "Developed an admin interface to search, view, and assign pending bookings in real time, including status updates and confirmation messaging.",
+      "Delivered a fully functional two-part system (booking and admin) with dynamic input validation, client–server communication via Fetch, and SQL-backed persistence, tested and deployed on AUT’s webdev server."
+    ],
+    "tech": ["JavaScript (Fetch API)", "PHP", "HTML", "CSS", "MySQL"]
+  },
+  {
+    "title": "Interactive Virtual Pet Game",
+    "type": "Academic Project",
+    "range": "2023",
+    "url": "https://github.com/christjamess/pdcfinal",
+    "images": [
+     ],
+    "description": [
+      "Co-developed a desktop-based virtual pet simulation game with a graphical user interface for creating, interacting with, and managing digital pets.",
+      "Implemented full CRUD functionality with persistent state management and database integration for saving and retrieving pet data.",
+      "Designed a modular, object-oriented architecture with dynamic pet behaviors, enhancing user engagement and maintainability."
+    ],
+    "tech": ["Java", "Swing", "Object-Oriented Programming"]
   }
 ]
